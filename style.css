@@ -1,0 +1,104 @@
+.conteyner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  align-items: center;
+}
+
+.conteyner.active{
+    background-color: rgb(77, 77, 77);
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+}
+
+.player-chackbox{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.checkbox{
+    margin-right: 15px;
+    height: 28px; width: 28px
+}
+
+.chess-field{
+    width: 100%;
+    height: 250px;
+    background-color: darkgrey;
+    border: 1px solid black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(167, 167, 167);
+    justify-content: space-between;
+    width: 300px;
+    border-radius: 50px;
+    height: 350px;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.player__title.active{
+    color: rgb(228, 228, 228);
+}
+
+.newGame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.menu__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__title.active{
+    color: rgb(230, 230, 230);
+}
+
+.archive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-left: solid 2px black;
+    color:black ;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 80%;
+    height: 40px;
+}
+
